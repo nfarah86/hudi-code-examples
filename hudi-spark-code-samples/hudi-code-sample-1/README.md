@@ -9,7 +9,7 @@ This script is being ran on Macbook pro with m1 max chip. You can run it on spar
 
 
 ## To Run the script for Spark 3.2
-```export SPARK_VERSION=3.2`` # change this number to your Spark version
+```export SPARK_VERSION=3.2``` # change this number to your Spark version
 
 ``` $SPARK_HOME/bin/spark-shell --packages org.apache.hudi:hudi-spark$SPARK_VERSION-bundle_2.12:0.14.0 --conf 'spark.serializer=org.apache.spark.serializer.KryoSerializer' --conf 'spark.sql.catalog.spark_catalog=org.apache.spark.sql.hudi.catalog.HoodieCatalog' --conf 'spark.sql.extensions=org.apache.spark.sql.hudi.HoodieSparkSessionExtension' --conf 'spark.kryo.registrator=org.apache.spark.HoodieSparkKryoRegistrar' -i /path_to_code/hudi_code_sample_1.scala```
 
@@ -43,4 +43,4 @@ This script is being ran on Macbook pro with m1 max chip. You can run it on spar
    - Displays the contents of `hudiDf`.
 
    You should see the results of the snapshot query:
-   ![results](./results.png)
+   ![results](results.png)
