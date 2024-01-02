@@ -43,4 +43,4 @@ This script is being ran on Macbook pro with m1 max chip. You can run it on spar
    - Displays the contents of `hudiDf`.
 
    You should see the results of the snapshot query:
-   ![results](images/results.png)
+   ![results](images/result.png)
