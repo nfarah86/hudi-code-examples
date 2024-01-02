@@ -44,3 +44,7 @@ This script is being ran on Macbook pro with m1 max chip. You can run it on spar
 
    You should see the results of the snapshot query:
    ![results](images/result.png)
+
+# Resources
+Have questions? Join the [Apache Hudi Slack Community](https://join.slack.com/t/apache-hudi/shared_invite/zt-20r833rxh-627NWYDUyR8jRtMa2mZ~gg) and ask questions on the #general-hudi-questions
+
